@@ -189,6 +189,9 @@ class ProviderNameValues:
     MOONSHOT = "moonshot"
     """The moonshot provider name."""
 
+    AIMLAPI = "aimlapi"
+    """The aimlapi.com provider name."""
+
     AZURE_AI_OPENAI = (
         GenAIAttributes.GenAiProviderNameValues.AZURE_AI_OPENAI.value
     )
