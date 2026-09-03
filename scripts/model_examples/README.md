@@ -76,6 +76,7 @@ scripts/model_examples/
 
 | Provider | Env Variable | Notes |
 |---|---|---|
+| `aimlapi` | `AIMLAPI_API_KEY` | aimlapi.com aggregator, supports only `call` |
 | `openai_chat` | `OPENAI_API_KEY` | Chat Completions API – gpt-4.1, etc. |
 | `openai_response` | `OPENAI_API_KEY` | Responses API – o1, o3, o4-mini, etc. |
 | `anthropic` | `ANTHROPIC_API_KEY` | Claude models, supports extended thinking |
@@ -83,7 +84,6 @@ scripts/model_examples/
 | `deepseek` | `DEEPSEEK_API_KEY` | Supports only `call` / `multiagent` (no multimodal) |
 | `gemini` | `GEMINI_API_KEY` | Gemini models, supports `thinking_budget` |
 | `moonshot` | `MOONSHOT_API_KEY` | Moonshot AI kimi-k2.6, etc. |
-| `aimlapi` | `AIMLAPI_API_KEY` | aimlapi.com aggregator, supports only `call` |
 | `xai` | `XAI_API_KEY` | Grok models, supports `reasoning_effort` |
 | `ollama` | *(none – auto-detect)* | Local server, default `http://localhost:11434` |
 
