@@ -16,7 +16,7 @@ _AIMLAPI_ATTRIBUTION_HEADERS = {
     "HTTP-Referer": "https://github.com/agentscope-ai/agentscope",
     "X-Title": "AgentScope",
     "X-AIMLAPI-Source": "agent/agentscope",
-    "X-AIMLAPI-Partner-ID": "part_agentscope",
+    "X-AIMLAPI-Partner-ID": "part_kY9LNtFpD5NNROdyhGmRvEqP",
 }
 
 _AIMLAPI_HOST_SUFFIX = "aimlapi.com"
