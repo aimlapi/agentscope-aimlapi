@@ -41,6 +41,8 @@ scripts/model_examples/
 ├── gemini_multimodal.py
 ├── gemini_multiagent_multimodal.py
 │
+├── aimlapi_call.py                  # aimlapi.com aggregator (no multimodal example)
+│
 ├── moonshot_call.py                 # Moonshot AI (Kimi)
 ├── moonshot_multiagent.py
 ├── moonshot_multimodal.py
@@ -74,6 +76,7 @@ scripts/model_examples/
 
 | Provider | Env Variable | Notes |
 |---|---|---|
+| `aimlapi` | `AIMLAPI_API_KEY` | aimlapi.com aggregator, supports only `call` |
 | `openai_chat` | `OPENAI_API_KEY` | Chat Completions API – gpt-4.1, etc. |
 | `openai_response` | `OPENAI_API_KEY` | Responses API – o1, o3, o4-mini, etc. |
 | `anthropic` | `ANTHROPIC_API_KEY` | Claude models, supports extended thinking |
@@ -99,6 +102,7 @@ export DASHSCOPE_API_KEY="sk-..."
 export DEEPSEEK_API_KEY="sk-..."
 export GEMINI_API_KEY="AIza..."
 export MOONSHOT_API_KEY="sk-..."
+export AIMLAPI_API_KEY="..."
 export XAI_API_KEY="xai-..."
 ```
 
