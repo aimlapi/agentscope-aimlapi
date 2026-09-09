@@ -189,6 +189,9 @@ class ProviderNameValues:
     MOONSHOT = "moonshot"
     """The moonshot provider name."""
 
+    VOLCENGINE = "volcengine"
+    """The Volcengine provider name."""
+
     AIMLAPI = "aimlapi"
     """The aimlapi.com provider name."""
 
